@@ -40,7 +40,7 @@ public class CaptureActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.btn_capture:
                 Bitmap bitmap = tv_capture.getDrawingCache();
                 iv_capture.setImageBitmap(bitmap);
-                mHandler.postDelayed(mResetCache,200);
+                mHandler.postDelayed(mResetCache,2000);
                 break;
         }
     }
