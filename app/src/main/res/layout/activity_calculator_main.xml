@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context=".CalculatorMainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="简单计算器"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|bottom"
+                    android:lines="3"
+                    android:maxLines="3"
+                    android:scrollbars="vertical"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="CE" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="+" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="×" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="C" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="7" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="8" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="9" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="+" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="4" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="5" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="6" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="-" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="1" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="2" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="3" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="√" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <Button
+                    android:layout_weight="2"
+                    style="@style/btn_cal"
+                    android:text="0" />
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="." />
+
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="=" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -6,5 +6,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="btn_cal">
+        <item name="colorPrimary">#000000</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/btn_nine_selector</item>
+    </style>
 </resources>
