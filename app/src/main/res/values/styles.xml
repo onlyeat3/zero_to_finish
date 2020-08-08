@@ -14,4 +14,9 @@
         <item name="android:textSize">30sp</item>
         <item name="android:background">@drawable/btn_nine_selector</item>
     </style>
+    <style name="text_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3dp</item>
+    </style>
 </resources>
