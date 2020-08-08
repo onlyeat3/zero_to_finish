@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_hide"
+    tools:context=".EditHideActivity">
+
+    <EditText
+        android:id="@+id/et_mobile"
+        style="@style/text_normal"
+        android:background="@drawable/edittext_selector"
+        android:hint="输入11位时自动隐藏输入法"
+        android:inputType="number"
+        android:maxLength="11" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/text_normal"
+        android:background="@drawable/edittext_selector"
+        android:hint="输入6位时自动隐藏输入法"
+        android:inputType="numberPassword"
+        android:maxLength="6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/et_other"
+        style="@style/text_normal"
+        android:background="@drawable/edittext_selector"
+        android:hint="点击外部空白处隐藏输入法"
+        android:inputType="text" />
+</LinearLayout>
